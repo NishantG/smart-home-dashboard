@@ -1,0 +1,47 @@
+{
+  "name": "smart-home-dashboard",
+  "version": "0.1.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "start": "node server.js",
+    "devserver": "webpack-dev-server --mode development",
+    "nodemon": "nodemon server.js",
+    "build": "webpack --mode production --progress"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NishantG/smart-home-dashboard.git"
+  },
+  "author": "Nishant Gnawali",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NishantG/smart-home-dashboard/issues"
+  },
+  "homepage": "https://github.com/NishantG/smart-home-dashboard#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "express-basic-auth": "^1.1.6"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.3",
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/preset-react": "^7.0.0",
+    "babel-loader": "^8.0.5",
+    "clean-webpack-plugin": "^2.0.1",
+    "color-convert": "^2.0.0",
+    "html-webpack-plugin": "^3.2.0",
+    "html-webpack-template": "^6.2.0",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.10",
+    "prettier": "^1.16.4",
+    "react": "^16.8.6",
+    "react-color": "^2.17.0",
+    "react-dom": "^16.8.6",
+    "react-svg-loader": "^2.1.0",
+    "webpack": "^4.29.6",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1"
+  }
+}
